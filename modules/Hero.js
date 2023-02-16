@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { useRouter } from "next/router";
 import styles from "@/styles/Hero.module.css";
 import videoBg from "../videos/webvideoOpt.webm";
@@ -7,11 +7,22 @@ import ActiveLink from "./ActiveLink";
 
 const Hero = () => {
   const router = useRouter();
+  const videoRef = useRef(undefined);
+  useEffect(() => {
+    videoRef.current.defaultMuted = true;
+  });
 
   return (
     <div className={styles.hero}>
-      <video className={styles.backVideo} autoPlay loop muted playsInline>
-        <source src={videoBg} />
+      <video
+        ref={videoRef}
+        className={styles.backVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src={videoBg} type="video/mp4" />
       </video>
       <div className={styles.innerContainer}>
         <div className={styles.innerTextContainer}>
