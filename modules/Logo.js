@@ -5,7 +5,6 @@ import hqLogo from "@/assets/Logo_HQRecords.webp";
 const Logo = ({ alt, w, h, mt, mb, mr, ml }) => {
   return (
     <Image
-      placeholder="blur"
       loading="lazy"
       alt={alt ? alt : "HQ Records Logo"}
       src={hqLogo}
