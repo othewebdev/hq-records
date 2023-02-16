@@ -41,3 +41,8 @@
 .headerLogo:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 1080px) {
+  .nav {
+    padding: 0 12px;
+  }
+}
