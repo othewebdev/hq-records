@@ -119,10 +119,6 @@
     margin: 0;
     padding: 0;
   }
-  .innerContainer {
-    justify-content: space-between;
-    padding: 92px 0;
-  }
   .hero,
   .backVideo {
     height: 525px;
