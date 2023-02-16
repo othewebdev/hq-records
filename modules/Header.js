@@ -20,8 +20,10 @@ const Header = () => {
   return (
     <header className={fix ? styles.headerSticky : styles.header}>
       <nav className={styles.nav}>
-        <div onClick={() => router.push("/")} className={styles.headerLogo}>
-          <DynamicLogo className={styles.headerLogo} />
+        <div className={styles.headerLogo}>
+          <ActiveLink href="/" isTransparent>
+            <DynamicLogo className={styles.headerLogo} />
+          </ActiveLink>
         </div>
         <div className={styles.links}>
           <ActiveLink href="/">Home</ActiveLink>

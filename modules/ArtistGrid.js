@@ -1,17 +1,16 @@
-import React from "react";
-import { useRouter } from "next/router";
 import styles from "@/styles/ArtistGrid.module.css";
+import ActiveLink from "./ActiveLink";
 import ArtistCard from "./ArtistCard";
 
 const ArtistGrid = ({ artists }) => {
-  const router = useRouter();
-
   return (
     <div className={styles.grid}>
       {artists?.map((a) => (
-        <div key={a.name} onClick={() => router.push(a.href.toString())}>
-          <ArtistCard artist={a} />
-        </div>
+        <ActiveLink key={a.name} href={a.href} isTransparent>
+          <div key={a.name}>
+            <ArtistCard artist={a} />
+          </div>
+        </ActiveLink>
       ))}
     </div>
   );

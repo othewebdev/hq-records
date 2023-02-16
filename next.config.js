@@ -5,4 +5,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = withVideos();
+module.exports = withVideos() && { experimental: { css: true } };
