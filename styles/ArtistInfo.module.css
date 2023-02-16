@@ -18,6 +18,10 @@
   word-break: keep-all;
 }
 
+#artistName {
+  font-size: 24px;
+}
+
 @media screen and (max-width: 1080px) {
   .artistInfoGrid {
     display: flex;

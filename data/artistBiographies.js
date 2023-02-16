@@ -1,7 +1,7 @@
 export const BIOGRAPHIES = [
   {
     artistName: "Veyster",
-    artistBio: `Born and raised in the heart of the city, Veyster was destined to make a name for himself in the music industry. At just 18 years old, he has already captured the attention of fans with his unique blend of infectious beats, clever lyrics, and undeniable charisma.
+    artistBio: `Born and raised in Kansas City, Veyster was destined to make a name for himself in the music industry. At just 18 years old, he has already captured the attention of fans with his unique blend of infectious beats, clever lyrics, and undeniable charisma.
     Growing up, Veyster was always drawn to music. He began writing rhymes at a young age, drawing inspiration from the sights and sounds of his city, as well as his own personal experiences. He spent countless hours perfecting his craft, experimenting with different styles and techniques until he found his own distinct sound.
     After posting some of his early tracks online, Veyster quickly gained a following. Fans were drawn to his confident flow, infectious energy, and unapologetic honesty. As his reputation grew, he began performing at local venues and attracting the attention of industry insiders.
     In 2022, Veyster released his debut album, "Love Letters" which was met with critical acclaim. The album showcased his versatility as an artist, blending elements of hip-hop, trap, and R&B to create a sound that was uniquely his own. From the catchy hooks of "No Discussion" to the introspective lyrics of "Reminiscing" each track on the album showcased Veyster's incredible talent and undeniable passion for music.

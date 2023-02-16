@@ -18,6 +18,7 @@ const ARTISTS = [
     youtubeLink: "",
     tiktokLink: "",
     biography: BIOGRAPHIES[0].artistBio,
+    location: "Kansas City",
   },
   {
     name: "Brdwy Ev",
@@ -28,6 +29,7 @@ const ARTISTS = [
     instagramLink: "",
     youtubeLink: "",
     tiktokLink: "",
+    location: "Kansas City",
   },
   {
     name: "Odee-loh",
@@ -39,6 +41,7 @@ const ARTISTS = [
     youtubeLink: "",
     tiktokLink: "",
     biography: BIOGRAPHIES[2].artistBio,
+    location: "Kansas City",
   },
   {
     name: "Quan LLP!!",
@@ -49,6 +52,7 @@ const ARTISTS = [
     instagramLink: "",
     youtubeLink: "",
     tiktokLink: "",
+    location: "Kansas City",
   },
   {
     name: "Brdwy Seffy Smoove",
@@ -59,6 +63,7 @@ const ARTISTS = [
     instagramLink: "",
     youtubeLink: "",
     tiktokLink: "",
+    location: "Kansas City",
   },
   {
     name: "Dreskii",
@@ -69,6 +74,7 @@ const ARTISTS = [
     instagramLink: "",
     youtubeLink: "",
     tiktokLink: "",
+    location: "Kansas City",
   },
   {
     name: "Lil Myron",
@@ -79,6 +85,7 @@ const ARTISTS = [
     instagramLink: "",
     youtubeLink: "",
     tiktokLink: "",
+    location: "Kansas City",
   },
 ];
 
