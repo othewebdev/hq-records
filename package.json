@@ -1,0 +1,28 @@
+{
+  "name": "hq-records",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13.1.6",
+    "compression-webpack-plugin": "^10.0.0",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "formik": "^2.2.9",
+    "framer-motion": "^9.0.3",
+    "next": "13.1.6",
+    "next-seo": "^5.15.0",
+    "next-sitemap": "^3.1.52",
+    "next-videos": "1.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-player": "^2.11.2",
+    "react-responsive-carousel": "^3.2.23",
+    "swiper": "^9.0.5"
+  }
+}
