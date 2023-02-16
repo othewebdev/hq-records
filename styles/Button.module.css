@@ -13,5 +13,6 @@
 .primaryButton:hover {
   cursor: pointer;
   border: 1px solid var(--accent);
-  color: var(--accent);
+  background-color: var(--accent);
+  outline: none;
 }
