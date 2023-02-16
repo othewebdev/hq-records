@@ -22,7 +22,7 @@
   padding: 12px;
 }
 .innerBio {
-  min-width: 350px;
+  min-width: 225px;
   max-width: 560px;
   padding: 12px;
   width: 100%;
@@ -39,7 +39,14 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .artistImage {
+    object-fit: cover;
+  }
   .innerBio {
     padding: 0 16px;
+  }
+  .innerImage {
+    aspect-ratio: 1/1;
+    padding: 48px;
   }
 }
