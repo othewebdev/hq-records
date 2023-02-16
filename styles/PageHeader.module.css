@@ -4,20 +4,17 @@
   display: flex;
   justify-content: center;
 }
-
 .innerHeader {
   max-width: 1200px;
   width: 100%;
   justify-content: flex-start;
 }
-
 .innerHeader h1 {
   text-transform: uppercase;
   font-size: 92px;
   color: var(--accent);
   padding: 48px 0;
 }
-
 @keyframes animate {
   0% {
     width: 0;
@@ -32,7 +29,6 @@
     width: 0;
   }
 }
-
 @media screen and (max-width: 768px) {
   .innerHeader {
     width: 100%;

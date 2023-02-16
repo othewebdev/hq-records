@@ -3,13 +3,11 @@
   display: flex;
   justify-content: center;
 }
-
 .innerInfo {
   display: flex;
   max-width: 1200px;
   width: 100%;
 }
-
 @media (max-width: 800px) {
   .innerInfo {
     flex-direction: column;

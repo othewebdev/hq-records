@@ -1,28 +1,28 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 285px;
-    text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 285px;
+  text-transform: capitalize;
 }
 .footer p {
-    font-size: 15px;
+  font-size: 15px;
 }
 .footer p:not(:last-child) {
-    transition: 0.1s ease-in all;
-    text-transform: uppercase;
-    text-decoration: underline;
-    margin-top: 12px;
-    margin-bottom: 48px;
+  transition: 0.1s ease-in all;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 12px;
+  margin-bottom: 48px;
 }
-.footer p:not(:last-child):hover{
-    color: var(--accent);
-    cursor: pointer;
+.footer p:not(:last-child):hover {
+  color: var(--accent);
+  cursor: pointer;
 }
 .footer p:last-child {
-    margin-bottom: 41px;
+  margin-bottom: 41px;
 }
-.footerLogo:hover{
-    cursor: pointer;
+.footerLogo:hover {
+  cursor: pointer;
 }

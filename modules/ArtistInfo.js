@@ -10,6 +10,8 @@ const ArtistInfo = ({ artist }) => {
           src={artist.image || ""}
           alt={artist.name + "Biography"}
           width={300}
+          placeholder="blur"
+          loading="eager"
         />
         <div>{artist.biography}</div>
       </div>
