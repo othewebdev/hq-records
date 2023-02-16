@@ -1,12 +1,10 @@
-import React, { useRef, useEffect } from "react";
-import { useRouter } from "next/router";
 import styles from "@/styles/Hero.module.css";
+import { useEffect, useRef } from "react";
 import videoBg from "../videos/webvideoOpt.webm";
-import Button from "./Button";
 import ActiveLink from "./ActiveLink";
+import Button from "./Button";
 
 const Hero = () => {
-  const router = useRouter();
   const videoRef = useRef(undefined);
   useEffect(() => {
     videoRef.current.defaultMuted = true;
@@ -17,6 +15,7 @@ const Hero = () => {
       <video
         ref={videoRef}
         className={styles.backVideo}
+        controls
         autoPlay
         loop
         muted
