@@ -1,52 +1,26 @@
-.artistInfo {
+.artistInfoContainer {
   width: 100%;
   display: flex;
   justify-content: center;
-  transition: 0.2s ease all;
+  padding: 18px;
 }
-.innerInfo {
-  display: flex;
-  flex-direction: row;
-  transition: 0.2s ease all;
-}
-.artistBio {
-  display: flex;
-  justify-content: center;
-  transition: 0.2s ease all;
-}
-.artistImage {
-  display: flex;
-  justify-content: center;
-}
-.innerImage {
-  padding: 12px;
-}
-.innerBio {
-  min-width: 225px;
-  max-width: 560px;
-  padding: 12px;
+
+.artistInfoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 24px;
+  max-width: 1200px;
   width: 100%;
-  height: 100%;
-  font-size: 14px;
+  justify-self: center;
   transition: 0.2s ease all;
+  inline-size: 1590px;
+  word-break: keep-all;
 }
-@media (max-width: 1080px) {
-  .innerInfo {
+
+@media screen and (max-width: 1080px) {
+  .artistInfoGrid {
+    display: flex;
     flex-direction: column;
-  }
-  .artistBio {
-    text-align: center;
-  }
-}
-@media screen and (max-width: 768px) {
-  .artistImage {
-    object-fit: cover;
-  }
-  .innerBio {
-    padding: 0 16px;
-  }
-  .innerImage {
-    aspect-ratio: 1/1;
-    padding: 48px;
   }
 }
