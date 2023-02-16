@@ -1649,6 +1649,7 @@ __metadata:
     react-dom: 18.2.0
     react-player: ^2.11.2
     react-responsive-carousel: ^3.2.23
+    react-video-tag: ^0.0.10
     swiper: ^9.0.5
   languageName: unknown
   linkType: soft
@@ -2586,6 +2587,15 @@ __metadata:
     prop-types: ^15.5.8
     react-easy-swipe: ^0.0.21
   checksum: 8a5b915f140a05425554a0c108c60a0b103dae49808486d39147df09c832ad712c7d7f4a66f0d0c39529ca095b4a327f0cc440d91b5f7a39ab13076931f74bd0
+  languageName: node
+  linkType: hard
+
+"react-video-tag@npm:^0.0.10":
+  version: 0.0.10
+  resolution: "react-video-tag@npm:0.0.10"
+  peerDependencies:
+    react: ^16.4.1
+  checksum: 3a71fec6cfe70d70abeb1664cb6da17223aceafb6e3cbe871408ed585a21c7879e34d14f5679fe7ade9f74248d6760342e0c0170d0f9d57072ac725126266744
   languageName: node
   linkType: hard
 
