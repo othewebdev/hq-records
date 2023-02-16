@@ -6,6 +6,15 @@
   width: 100%;
   overflow: hidden;
   transition: 0.2s ease all;
+}
+.mobileHero {
+  height: 585px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.2s ease all;
   background-color: black;
 }
 .backVideo {
@@ -123,12 +132,13 @@
 @media screen and (max-width: 1080px) {
   .hero,
   .backVideo {
-    height: 425px;
+    height: 475px;
   }
 }
 @media screen and (max-width: 768px) {
   .hero,
+  .mobileHero,
   .backVideo {
-    height: 355px;
+    height: 450px;
   }
 }
