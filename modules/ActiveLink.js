@@ -17,7 +17,7 @@ function ActiveLink({ children, href, isTransparent }) {
   };
 
   return (
-    <a href={href} onClick={handleClick} style={isTransparent ? "" : style}>
+    <a href={href} onClick={handleClick} style={isTransparent ? null : style}>
       {children}
     </a>
   );
