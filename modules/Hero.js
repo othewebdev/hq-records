@@ -10,7 +10,7 @@ const Hero = () => {
     <div className={styles.hero}>
       <VideoTag
         className={styles.backVideo}
-        src={videoBg}
+        src={videoBg + "#t=0.001"}
         autoPlay
         loop
         muted
