@@ -1,0 +1,21 @@
+1. Fix click issues on Artists page
+2. Add location icon on artist page (next to location)
+3. Remove go back icon on artist page (for now)
+4. Add slugs to each artist page (/artists/{Artist Name})
+5. Add image for artist page (Retrieve from Apple Music else Use image from Artists page)
+6. Add Apple Music API for latest release, songs etc for each artist
+   - Create / design section for every artist music on artist page
+   - Add social media links
+   - Finish writing arist biographies
+   - Create an SEO description for each page
+7. Finish about page
+8. Finish contact page
+   - Configure Formik to send emails
+   - Search for SPAM protection for this form
+   - Have all emails go to (contact@hq-records.com)
+9. Add page transitions (framer-motion)
+10. Register site to Google Search Console
+11. Setup Cookie Consent with Google Tag Manager
+12. Setup Google Analytics
+13. Fix spacing on all page headers
+14. Run Speed Test, SEO Optimization and more
