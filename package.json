@@ -11,6 +11,7 @@
   "dependencies": {
     "@next/font": "^13.1.6",
     "compression-webpack-plugin": "^10.0.0",
+    "cookies-next": "^2.1.1",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "formik": "^2.2.9",
