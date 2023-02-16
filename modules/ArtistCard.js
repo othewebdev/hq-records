@@ -12,7 +12,6 @@ const ArtistCard = ({ artist }) => {
           src={artist.image || ImgA}
           className={styles.cardImage}
           alt={artist.name}
-          placeholder="blur"
           loading="eager"
         />
       </div>
