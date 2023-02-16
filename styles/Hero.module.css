@@ -125,13 +125,6 @@
   }
   .hero,
   .backVideo {
-    height: 475px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .hero,
-  .mobileHero,
-  .backVideo {
-    height: 450px;
+    height: 525px;
   }
 }

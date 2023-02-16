@@ -29,10 +29,20 @@
     width: 0;
   }
 }
+@media screen and (max-width: 1080px) {
+  .innerHeader h1 {
+    font-size: 58px;
+    padding: 24px;
+  }
+}
 @media screen and (max-width: 768px) {
   .innerHeader {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+  }
+  .innerHeader h1 {
+    text-align: center;
   }
 }

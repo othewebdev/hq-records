@@ -1,10 +1,12 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import styles from "@/styles/Logo.module.css";
 import hqLogo from "@/assets/Logo_HQRecords.webp";
 
 const Logo = ({ alt, w, h, mt, mb, mr, ml }) => {
   return (
     <Image
+      className={styles.logo}
       loading="lazy"
       alt={alt ? alt : "HQ Records Logo"}
       src={hqLogo}
