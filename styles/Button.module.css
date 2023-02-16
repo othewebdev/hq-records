@@ -9,7 +9,6 @@
   transition: 0.1s ease-in all;
   margin: 35px 0;
   text-transform: capitalize;
-  z-index: 2;
 }
 .primaryButton:hover {
   cursor: pointer;
