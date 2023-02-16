@@ -18,10 +18,8 @@ const Hero = () => {
           <h1 data-text="HQ Records">HQ Records</h1>
           <p>WE CREATE WITHOUT LIMITS.</p>
         </div>
-        <ActiveLink isTransparent>
-          <div>
-            <Button text="explore more" />
-          </div>
+        <ActiveLink href="/artists" isTransparent>
+          <Button text="explore more" />
         </ActiveLink>
       </div>
     </div>
