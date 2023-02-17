@@ -1,7 +1,9 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+import { getCookie } from "cookies-next";
 
 export default function Document() {
+  const consent = getCookie("localConsent");
   return (
     <Html lang="en">
       <Head>
