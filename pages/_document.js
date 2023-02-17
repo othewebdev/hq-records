@@ -1,10 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
 import { getCookie } from "cookies-next";
 
 export default function Document() {
-  let GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
-
   const consent = getCookie("localConsent");
   return (
     <Html lang="en">
@@ -18,7 +15,7 @@ export default function Document() {
         ></link>
         <script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GTM_ID}`}
+          src={`https://www.googletagmanager.com/gtag/js?id=GTM-WBVXLQX`}
         />
         <script
           async
@@ -27,7 +24,7 @@ export default function Document() {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GTM_ID}');
+            gtag('config', 'GTM-WBVXLQX');
         `,
           }}
         />
@@ -45,7 +42,7 @@ export default function Document() {
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','${GTM_ID}');`,
+            })(window,document,'script','dataLayer','GTM-WBVXLQX');`,
           }}
         />
         {consent === true && (
