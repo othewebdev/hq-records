@@ -19,6 +19,17 @@ export default function App({ Component, pageProps }) {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       <Script
+        id="gtag_mid"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+           window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-FRMYPLFSLF');`,
+        }}
+      />
+      <Script
         id="gtag"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -37,6 +48,7 @@ export default function App({ Component, pageProps }) {
             })(window,document,'script','dataLayer','GTM-WBVXLQX');`,
         }}
       />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-FRMYPLFSLF" />
       {consent === true && (
         <Script
           id="consupd"
