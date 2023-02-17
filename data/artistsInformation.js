@@ -30,6 +30,7 @@ const ARTISTS = [
     youtubeLink: "",
     tiktokLink: "",
     location: "Kansas City",
+    biography: BIOGRAPHIES[1].artistBio,
   },
   {
     name: "Odee-loh",
@@ -40,8 +41,8 @@ const ARTISTS = [
     instagramLink: "",
     youtubeLink: "",
     tiktokLink: "",
-    biography: BIOGRAPHIES[2].artistBio,
     location: "Kansas City",
+    biography: BIOGRAPHIES[2].artistBio,
   },
   {
     name: "Quan LLP!!",

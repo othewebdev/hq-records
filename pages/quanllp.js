@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { NextSeo } from "next-seo";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/About.module.css";
+import styles from "@/styles/Artists.module.css";
 import PageHeader from "@/modules/PageHeader";
 import ARTISTS from "@/data/artistsInformation";
 import ArtistInfo from "@/modules/ArtistInfo";
@@ -12,11 +12,11 @@ export const config = {
   unstable_runtimeJS: false,
 };
 
-export default function ArtistsVeyster() {
+export default function ArtistsQuanLLP() {
   return (
     <>
       <NextSeo
-        title="Veyster | HQ Records"
+        title="Quan LLP!! | HQ Records"
         description="HQ Records is an indie record label"
         robotsProps={{
           nosnippet: true,
@@ -44,7 +44,7 @@ export default function ArtistsVeyster() {
         canonical="https://www.canonical.ie/"
       />
       <Head>
-        <title>Veyster | HQ Records</title>
+        <title>Quan LLP!! | HQ Records</title>
         <meta
           name="description"
           content="HQ Records is an indie record label"
@@ -53,8 +53,8 @@ export default function ArtistsVeyster() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <PageHeader text="Veyster" />
-        <ArtistInfo artist={ARTISTS[0]} />
+        <PageHeader text="Quan LLP!!" />
+        <ArtistInfo artist={ARTISTS[3]} />
       </main>
     </>
   );
