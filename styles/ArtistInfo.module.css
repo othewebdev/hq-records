@@ -20,11 +20,30 @@
 
 #artistName {
   font-size: 24px;
+  font-weight: bold;
 }
-
+#imgColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#imgColumn img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+#bioColumn span p {
+  color: var(--accent);
+}
 @media screen and (max-width: 1080px) {
   .artistInfoGrid {
     display: flex;
     flex-direction: column;
+  }
+  #bioColumn {
+    text-align: center;
+    width: 100%;
+    padding: 30px 25px;
   }
 }
