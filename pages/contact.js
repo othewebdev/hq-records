@@ -7,10 +7,6 @@ import ContactForm from "@/modules/ContactForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const config = {
-  unstable_runtimeJS: false,
-};
-
 export default function Contact() {
   return (
     <>
@@ -52,7 +48,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <PageHeader text="contact us."/>
+        <PageHeader text="contact us." />
         <ContactForm />
       </main>
     </>

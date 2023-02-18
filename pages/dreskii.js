@@ -8,10 +8,6 @@ import ArtistInfo from "@/modules/ArtistInfo";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const config = {
-  unstable_runtimeJS: false,
-};
-
 export default function ArtistsDreskii() {
   return (
     <>

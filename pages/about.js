@@ -6,10 +6,6 @@ import PageHeader from "@/modules/PageHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const config = {
-  unstable_runtimeJS: false,
-};
-
 export default function About() {
   return (
     <>

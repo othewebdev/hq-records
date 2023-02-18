@@ -8,10 +8,6 @@ import ARTISTS from "@/data/artistsInformation";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const config = {
-  unstable_runtimeJS: false,
-};
-
 export default function Artists() {
   return (
     <>
