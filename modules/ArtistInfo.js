@@ -26,16 +26,22 @@ const ArtistInfo = ({ artist, altName }) => {
         }}
       >
         <div className={styles.artistInfoGrid}>
-          <div
-            style={{
-              backgroundImage: `url(${artist.imageUrl})`,
-              width: "100%",
-              height: "500px",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              objectFit: "fill",
-            }}
-          />
+          <div className={styles.imgColumn}>
+            <div
+              style={{
+                backgroundImage: `url(${artist.imageUrl})`,
+                display: "flex",
+                width: "100%",
+                minHeight: "350px",
+                height: "425px",
+                maxHeight: "565px",
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                objectFit: "fill",
+              }}
+            />
+          </div>
           <div id={styles.bioColumn}>
             {altName ? (
               <p id={styles.artistName}>{artist.altName}</p>
