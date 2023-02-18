@@ -58,6 +58,7 @@ const ARTISTS = [
   {
     name: "Brdwy Seffy Smoove",
     href: "brdwyseffy",
+    altName: "BrdwySeffySmoove",
     image: seffyImage,
     appleMusicLink: "",
     spotifyLink: "",

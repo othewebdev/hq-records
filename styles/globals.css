@@ -34,3 +34,9 @@ span,
 a {
   color: hsl(0, 0%, 23%);
 }
+
+.basePageSize {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}

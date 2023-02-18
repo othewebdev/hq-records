@@ -3,6 +3,14 @@
   overflow: hidden;
   transition: 0.1s ease-in all;
 }
+.card a {
+  text-decoration: none;
+}
+.textContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 .cardImage {
   width: 100%;
   height: 100%;
@@ -21,27 +29,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.innerCard p {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: absolute;
-  word-wrap: break-word;
-  word-spacing: 500000px;
-  cursor: pointer;
+  z-index: -1;
 }
 .cardArtistName {
-  color: white;
-  font-weight: bold;
+  color: black;
   text-transform: uppercase;
-  font-size: 48px;
-  word-break: break-all;
+  font-weight: 400;
+  font-size: 14px;
   text-align: center;
+  margin: 12px 0;
 }
 @media screen and (max-width: 1080px) {
   .card {
-    transform: scale(0.95);
+    margin: 0 16px;
   }
 }

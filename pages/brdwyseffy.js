@@ -13,6 +13,7 @@ export const config = {
 };
 
 export default function ArtistsBrdwySeffySmoove() {
+  const artist = ARTISTS[4];
   return (
     <>
       <NextSeo
@@ -53,8 +54,8 @@ export default function ArtistsBrdwySeffySmoove() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <PageHeader text="BrdwySeffySmoove" />
-        <ArtistInfo artist={ARTISTS[4]} />
+        <PageHeader text={artist.altName} />
+        <ArtistInfo artist={artist} altName />
       </main>
     </>
   );
