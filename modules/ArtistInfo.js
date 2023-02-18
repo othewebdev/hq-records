@@ -30,8 +30,7 @@ const ArtistInfo = ({ artist, altName }) => {
             style={{
               backgroundImage: `url(${artist.imageUrl})`,
               width: "100%",
-              height: "550px",
-              backgroundPosition: "center",
+              height: "500px",
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
               objectFit: "fill",

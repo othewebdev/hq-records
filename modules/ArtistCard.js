@@ -5,7 +5,13 @@ const ArtistCard = ({ artist }) => {
   return (
     <div
       className={styles.card}
-      style={{ backgroundImage: `url(${artist.imageUrl})` }}
+      style={{
+        backgroundImage: `url(${artist.imageUrl})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        margin: "16px",
+      }}
     >
       <a key={artist.name} href={artist.href}>
         <motion.div
