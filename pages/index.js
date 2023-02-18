@@ -4,12 +4,7 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Hero from "@/modules/Hero";
 
-
 const inter = Inter({ subsets: ["latin"] });
-
-export const config = {
-  unstable_runtimeJS: false,
-};
 
 export default function Home() {
   return (
