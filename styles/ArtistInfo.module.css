@@ -2,9 +2,10 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 18px;
 }
-
+.img {
+  padding: 24px;
+}
 .artistInfoGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -14,10 +15,8 @@
   width: 100%;
   justify-self: center;
   transition: 0.2s ease all;
-  inline-size: 1590px;
   word-break: keep-all;
 }
-
 #artistName {
   font-size: 24px;
   font-weight: bold;
@@ -27,17 +26,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-height: 500px;
 }
-
 #bioColumn span p {
   color: var(--accent);
 }
 @media screen and (max-width: 1080px) {
   .artistInfoGrid {
-    display: flex;
     width: 100%;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   #bioColumn {
     text-align: center;
