@@ -1,11 +1,8 @@
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Contact.module.css";
-import PageHeader from "@/modules/PageHeader";
 import ContactForm from "@/modules/ContactForm";
-
-const inter = Inter({ subsets: ["latin"] });
+import PageHeader from "@/modules/PageHeader";
+import styles from "@/styles/Contact.module.css";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 export default function Contact() {
   return (

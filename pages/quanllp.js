@@ -1,14 +1,12 @@
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Artists.module.css";
-import PageHeader from "@/modules/PageHeader";
 import ARTISTS from "@/data/artistsInformation";
 import ArtistInfo from "@/modules/ArtistInfo";
-
-const inter = Inter({ subsets: ["latin"] });
+import PageHeader from "@/modules/PageHeader";
+import styles from "@/styles/Artists.module.css";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 export default function ArtistsQuanLLP() {
+  const artist = ARTISTS[3];
   return (
     <>
       <NextSeo
@@ -50,7 +48,7 @@ export default function ArtistsQuanLLP() {
       </Head>
       <main className={styles.main}>
         <PageHeader text="Quan LLP!!" />
-        <ArtistInfo artist={ARTISTS[3]} />
+        <ArtistInfo artist={artist} />
       </main>
     </>
   );

@@ -1,10 +1,7 @@
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/About.module.css";
 import PageHeader from "@/modules/PageHeader";
-
-const inter = Inter({ subsets: ["latin"] });
+import styles from "@/styles/About.module.css";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 export default function About() {
   return (

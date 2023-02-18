@@ -1,14 +1,12 @@
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Artists.module.css";
-import PageHeader from "@/modules/PageHeader";
 import ARTISTS from "@/data/artistsInformation";
 import ArtistInfo from "@/modules/ArtistInfo";
-
-const inter = Inter({ subsets: ["latin"] });
+import PageHeader from "@/modules/PageHeader";
+import styles from "@/styles/Artists.module.css";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 export default function ArtistsLilMyron() {
+  const artist = ARTISTS[6];
   return (
     <>
       <NextSeo
@@ -50,7 +48,7 @@ export default function ArtistsLilMyron() {
       </Head>
       <main className={styles.main}>
         <PageHeader text="Lil Myron" />
-        <ArtistInfo artist={ARTISTS[6]} />
+        <ArtistInfo artist={artist} />
       </main>
     </>
   );

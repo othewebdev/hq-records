@@ -1,12 +1,9 @@
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/About.module.css";
-import PageHeader from "@/modules/PageHeader";
-import ArtistGrid from "@/modules/ArtistGrid";
 import ARTISTS from "@/data/artistsInformation";
-
-const inter = Inter({ subsets: ["latin"] });
+import ArtistGrid from "@/modules/ArtistGrid";
+import PageHeader from "@/modules/PageHeader";
+import styles from "@/styles/About.module.css";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 export default function Artists() {
   return (

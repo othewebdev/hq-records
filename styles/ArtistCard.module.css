@@ -6,20 +6,8 @@
 .card a {
   text-decoration: none;
 }
-.textContainer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.cardImage {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-  filter: brightness(80%);
-  z-index: -999;
-  transition: 0.1s ease all;
-}
-.card:hover .cardImage {
+
+.card:hover {
   filter: brightness(50%);
   cursor: pointer;
 }
@@ -32,12 +20,13 @@
   z-index: -1;
 }
 .cardArtistName {
-  color: black;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 800;
+  font-size: 36px;
   text-align: center;
   margin: 12px 0;
+  z-index: 99;
 }
 @media screen and (max-width: 1080px) {
   .card {

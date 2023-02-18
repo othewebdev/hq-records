@@ -3,7 +3,7 @@ import styles from "@/styles/PageHeader.module.css";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 
-const PageHeader = ({ text, bgColor, goBack }) => {
+const PageHeader = ({ text, bgColor }) => {
   const router = useRouter();
 
   return (
@@ -12,7 +12,6 @@ const PageHeader = ({ text, bgColor, goBack }) => {
       style={{ backgroundColor: bgColor ? bgColor : "white" }}
     >
       <div className={styles.innerHeader}>
-        {goBack && <div onClick={() => router.back()}>Go Back</div>}
         <motion.div
           key={router.route}
           initial={{ y: 25, opacity: 0 }}

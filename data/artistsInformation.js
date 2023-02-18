@@ -1,17 +1,10 @@
-import veyImage from "@/assets/veyster.webp";
-import brdwyEvImage from "@/assets/kevin.webp";
-import odeelohImage from "@/assets/odeeloh.webp";
-import quanllpImage from "@/assets/quanllp.webp";
-import seffyImage from "@/assets/seffy.webp";
-import dreskiiImage from "@/assets/dreskii.webp";
-import lilmyronImage from "@/assets/myron.webp";
 import { BIOGRAPHIES } from "./artistBiographies";
 
 const ARTISTS = [
   {
     name: "Veyster",
     href: "/veyster",
-    image: veyImage,
+    imageUrl: "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/veyster.webp",
     appleMusicLink: "",
     spotifyLink: "",
     instagramLink: "",
@@ -23,7 +16,7 @@ const ARTISTS = [
   {
     name: "Brdwy Ev",
     href: "/brdwyev",
-    image: brdwyEvImage,
+    imageUrl: "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/kevin.webp",
     appleMusicLink: "",
     spotifyLink: "",
     instagramLink: "",
@@ -35,7 +28,7 @@ const ARTISTS = [
   {
     name: "Odee-loh",
     href: "/odeeloh",
-    image: odeelohImage,
+    imageUrl: "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/odeeloh.webp",
     appleMusicLink: "",
     spotifyLink: "",
     instagramLink: "",
@@ -47,7 +40,7 @@ const ARTISTS = [
   {
     name: "Quan LLP!!",
     href: "/quanllp",
-    image: quanllpImage,
+    imageUrl: "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/quanllp.webp",
     appleMusicLink: "",
     spotifyLink: "",
     instagramLink: "",
@@ -59,7 +52,7 @@ const ARTISTS = [
     name: "Brdwy Seffy Smoove",
     href: "brdwyseffy",
     altName: "BrdwySeffySmoove",
-    image: seffyImage,
+    imageUrl: "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/seffy.webp",
     appleMusicLink: "",
     spotifyLink: "",
     instagramLink: "",
@@ -70,7 +63,7 @@ const ARTISTS = [
   {
     name: "Dreskii",
     href: "dreskii",
-    image: dreskiiImage,
+    imageUrl: "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/dreskii.webp",
     appleMusicLink: "",
     spotifyLink: "",
     instagramLink: "",
@@ -81,7 +74,7 @@ const ARTISTS = [
   {
     name: "Lil Myron",
     href: "lilmyron",
-    image: lilmyronImage,
+    imageUrl: "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/myron.webp",
     appleMusicLink: "",
     spotifyLink: "",
     instagramLink: "",

@@ -1,10 +1,7 @@
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
 import Hero from "@/modules/Hero";
-
-const inter = Inter({ subsets: ["latin"] });
+import styles from "@/styles/Home.module.css";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 export default function Home() {
   return (

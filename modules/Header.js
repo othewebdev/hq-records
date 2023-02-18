@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { DynamicLogo } from "./dynamic";
-import { useRouter } from "next/router";
 import styles from "@/styles/Header.module.css";
+import { useEffect, useState } from "react";
 import ActiveLink from "./ActiveLink";
+import { DynamicLogo } from "./dynamic";
 
 const Header = () => {
-  const router = useRouter();
   const [fix, setFix] = useState(false);
 
   useEffect(() => {
