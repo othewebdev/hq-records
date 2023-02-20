@@ -1,0 +1,44 @@
+.mobileMenu {
+  position: absolute;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease all;
+  background-color: hsla(0, 0%, 8%, 0.685);
+  backdrop-filter: blur(1rem);
+  touch-action: none;
+  overflow: hidden;
+}
+.mobileMenu ul {
+  list-style-type: none;
+  text-align: center;
+}
+.mobileMenu ul li {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  transition: 0.1s ease all;
+  text-decoration: none;
+  user-select: none;
+}
+.mobileMenu ul li:hover {
+  color: var(--accent);
+  cursor: pointer;
+}
+.mobileMenu span {
+  position: absolute;
+  top: 0;
+  left: 95%;
+  font-size: 32px;
+  cursor: pointer;
+  color: white;
+}
+@media screen and (min-width: 1024px) {
+  .mobileMenu {
+    display: none;
+  }
+}

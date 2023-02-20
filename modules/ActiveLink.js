@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-function ActiveLink({ children, href, isTransparent }) {
+function ActiveLink({ children, href, isTransparent, onClick }) {
   const router = useRouter();
   const style = {
     marginRight: 10,
@@ -17,7 +17,11 @@ function ActiveLink({ children, href, isTransparent }) {
   };
 
   return (
-    <a href={href} onClick={handleClick} style={isTransparent ? null : style}>
+    <a
+      href={href}
+      onClick={onClick ? onClick : handleClick}
+      style={isTransparent ? null : style}
+    >
       {children}
     </a>
   );
