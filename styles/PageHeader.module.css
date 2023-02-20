@@ -10,7 +10,6 @@
   color: var(--accent);
   padding: 48px 0;
   transition: 0.2s ease all;
-  max-width: 550px;
 }
 @keyframes animate {
   0% {

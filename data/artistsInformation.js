@@ -47,6 +47,7 @@ const ARTISTS = [
     youtubeLink: "",
     tiktokLink: "",
     location: "Kansas City",
+    biography: BIOGRAPHIES[3].artistBio,
   },
   {
     name: "Brdwy Seffy Smoove",
@@ -59,6 +60,7 @@ const ARTISTS = [
     youtubeLink: "",
     tiktokLink: "",
     location: "Kansas City",
+    biography: BIOGRAPHIES[4].artistBio,
   },
   {
     name: "Dreskii",
@@ -70,6 +72,7 @@ const ARTISTS = [
     youtubeLink: "",
     tiktokLink: "",
     location: "Kansas City",
+    biography: BIOGRAPHIES[5].artistBio,
   },
   {
     name: "Lil Myron",
