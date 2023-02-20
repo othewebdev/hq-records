@@ -16,3 +16,23 @@
   background-color: var(--accent);
   outline: none;
 }
+
+.secondaryButton {
+  padding: 20px 32px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid var(--accent);
+  min-width: 175px;
+  color: var(--accent);
+  font-size: 16px;
+  transition: 0.1s ease-in all;
+  margin: 35px 0;
+  text-transform: capitalize;
+}
+.secondaryButton:hover {
+  cursor: pointer;
+  border: 1px solid rgb(27, 27, 27);
+  background-color: rgb(27, 27, 27);
+  color: white;
+  outline: none;
+}
