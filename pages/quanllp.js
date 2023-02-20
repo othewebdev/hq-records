@@ -49,6 +49,7 @@ export default function ArtistsQuanLLP() {
       <main className={styles.main}>
         <PageHeader text="Quan LLP!!" />
         <ArtistInfo artist={artist} />
+        <ArtistReleases artist={artist} />
       </main>
     </>
   );

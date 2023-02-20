@@ -49,6 +49,7 @@ export default function ArtistsLilMyron() {
       <main className={styles.main}>
         <PageHeader text="Lil Myron" />
         <ArtistInfo artist={artist} />
+        <ArtistReleases artist={artist} />
       </main>
     </>
   );

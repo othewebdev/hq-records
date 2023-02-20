@@ -1,11 +1,13 @@
 import ARTISTS from "@/data/artistsInformation";
 import ArtistInfo from "@/modules/ArtistInfo";
+import ArtistReleases from "@/modules/ArtistReleases";
 import PageHeader from "@/modules/PageHeader";
 import styles from "@/styles/Artists.module.css";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 
 export default function ArtistsOdeeloh() {
+  const artist = ARTISTS[2];
   return (
     <>
       <NextSeo
@@ -47,7 +49,8 @@ export default function ArtistsOdeeloh() {
       </Head>
       <main className={styles.main}>
         <PageHeader text="odee-loh" />
-        <ArtistInfo artist={ARTISTS[2]} />
+        <ArtistInfo artist={artist} />
+        <ArtistReleases artist={artist} />
       </main>
     </>
   );

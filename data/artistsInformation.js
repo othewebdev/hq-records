@@ -1,4 +1,5 @@
 import { BIOGRAPHIES } from "./artistBiographies";
+import { RELEASES } from "./artistReleases";
 
 const ARTISTS = [
   {
@@ -12,6 +13,7 @@ const ARTISTS = [
     tiktokLink: "",
     biography: BIOGRAPHIES[0].artistBio,
     location: "Kansas City",
+    releases: RELEASES[0].releases,
   },
   {
     name: "Brdwy Ev",
