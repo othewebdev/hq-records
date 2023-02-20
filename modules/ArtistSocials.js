@@ -7,7 +7,7 @@ const ArtistSocials = ({ artist }) => {
     let imageUrl = "";
     switch (name) {
       case "Apple Music":
-        imageUrl = "";
+        imageUrl = {};
         return imageUrl;
 
       case "Spotify":
