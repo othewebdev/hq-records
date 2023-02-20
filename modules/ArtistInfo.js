@@ -1,5 +1,7 @@
 import styles from "@/styles/ArtistInfo.module.css";
 import { motion } from "framer-motion";
+import locationPin from "@/assets/locationPin.webp";
+import Image from "next/image";
 
 const ArtistInfo = ({ artist, altName }) => {
   return (
@@ -41,6 +43,11 @@ const ArtistInfo = ({ artist, altName }) => {
               <p id={styles.artistName}>{artist.name}</p>
             )}
             <span>
+              <Image
+                width={24}
+                src={locationPin}
+                alt={artist.name + "location"}
+              />
               <p>{artist.location}</p>
             </span>
             <p>{artist.biography}</p>

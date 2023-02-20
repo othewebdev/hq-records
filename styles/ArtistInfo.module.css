@@ -30,6 +30,14 @@
 #bioColumn span p {
   color: var(--accent);
 }
+#bioColumn span {
+  display: flex;
+}
+#bioColumn img {
+  filter: invert(11%) sepia(100%) saturate(5146%) hue-rotate(341deg)
+    brightness(86%) contrast(99%);
+  margin-right: 8px;
+}
 @media screen and (max-width: 1080px) {
   .artistInfoGrid {
     width: 100%;
@@ -39,5 +47,8 @@
     text-align: center;
     width: 100%;
     padding: 30px 25px;
+  }
+  #bioColumn span {
+    justify-content: center;
   }
 }
