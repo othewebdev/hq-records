@@ -1,24 +1,12 @@
+import Hamburger from "@/assets/hamburger.webp";
 import styles from "@/styles/Header.module.css";
-import { useEffect, useState } from "react";
+import Image from "next/image";
 import ActiveLink from "./ActiveLink";
 import { DynamicLogo } from "./dynamic";
-import Hamburger from "@/assets/hamburger.webp";
-import Image from "next/image";
 
 const Header = () => {
-  const [fix, setFix] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setFix(window.scrollY >= 200);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
-
   return (
-    <header className={fix ? styles.headerSticky : styles.header}>
+    <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.headerLogo}>
           <ActiveLink href="/" isTransparent>
