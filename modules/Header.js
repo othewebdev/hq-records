@@ -2,6 +2,8 @@ import styles from "@/styles/Header.module.css";
 import { useEffect, useState } from "react";
 import ActiveLink from "./ActiveLink";
 import { DynamicLogo } from "./dynamic";
+import mobileMenu from "@/assets/Mobile_Menu.webp";
+import Image from "next/image";
 
 const Header = () => {
   const [fix, setFix] = useState(false);
@@ -28,6 +30,9 @@ const Header = () => {
           <ActiveLink href="/about">About</ActiveLink>
           <ActiveLink href="/artists">Artists</ActiveLink>
           <ActiveLink href="/contact">Contact</ActiveLink>
+        </div>
+        <div className={styles.mobileLinks}>
+          <Image src={mobileMenu} alt="Mobile Menu" width={32} />
         </div>
       </nav>
     </header>
