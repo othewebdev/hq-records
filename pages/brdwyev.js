@@ -1,17 +1,14 @@
-import ARTISTS from "@/data/artistsInformation";
-import ArtistInfo from "@/modules/ArtistInfo";
-import ArtistReleases from "@/modules/ArtistReleases";
-import PageHeader from "@/modules/PageHeader";
+import ArtistContent from "@/modules/ArtistContent";
 import styles from "@/styles/Artists.module.css";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 
 export default function ArtistsBrdwvEv() {
-  const artist = ARTISTS[1];
+  const artist = "Brdwy Ev";
   return (
     <>
       <NextSeo
-        title="Brdwy Ev | HQ Records"
+        title={`${artist} | HQ Records`}
         description="HQ Records is an indie record label"
         robotsProps={{
           nosnippet: true,
@@ -39,7 +36,7 @@ export default function ArtistsBrdwvEv() {
         canonical="https://www.canonical.ie/"
       />
       <Head>
-        <title>Brdwy Ev | HQ Records</title>
+        <title>{artist} | HQ Records</title>
         <meta
           name="description"
           content="HQ Records is an indie record label"
@@ -48,9 +45,7 @@ export default function ArtistsBrdwvEv() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <PageHeader text="Brdwy Ev" />
-        <ArtistInfo artist={artist} />
-        <ArtistReleases artist={artist} />
+        <ArtistContent artistName={artist} />
       </main>
     </>
   );

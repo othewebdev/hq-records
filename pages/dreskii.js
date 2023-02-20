@@ -1,17 +1,14 @@
-import ARTISTS from "@/data/artistsInformation";
-import ArtistInfo from "@/modules/ArtistInfo";
-import ArtistReleases from "@/modules/ArtistReleases";
-import PageHeader from "@/modules/PageHeader";
+import ArtistContent from "@/modules/ArtistContent";
 import styles from "@/styles/Artists.module.css";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 
 export default function ArtistsDreskii() {
-  const artist = ARTISTS[5];
+  const artist = "Dreskii";
   return (
     <>
       <NextSeo
-        title="Dreskii | HQ Records"
+        title={`${artist} | HQ Records`}
         description="HQ Records is an indie record label"
         robotsProps={{
           nosnippet: true,
@@ -39,7 +36,7 @@ export default function ArtistsDreskii() {
         canonical="https://www.canonical.ie/"
       />
       <Head>
-        <title>Dreskii | HQ Records</title>
+        <title>{artist} | HQ Records</title>
         <meta
           name="description"
           content="HQ Records is an indie record label"
@@ -48,9 +45,7 @@ export default function ArtistsDreskii() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <PageHeader text="Dreskii" />
-        <ArtistInfo artist={artist} />
-        <ArtistReleases artist={artist} />
+        <ArtistContent artistName={artist} altName />
       </main>
     </>
   );

@@ -1,18 +1,14 @@
-import ARTISTS from "@/data/artistsInformation";
-import ArtistInfo from "@/modules/ArtistInfo";
-import ArtistReleases from "@/modules/ArtistReleases";
-import ArtistSocials from "@/modules/ArtistSocials";
-import PageHeader from "@/modules/PageHeader";
+import ArtistContent from "@/modules/ArtistContent";
 import styles from "@/styles/About.module.css";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 
 export default function ArtistsVeyster() {
-  const artist = ARTISTS[0];
+  const artist = "Veyster";
   return (
     <>
       <NextSeo
-        title="Veyster | HQ Records"
+        title={`${artist} | HQ Records`}
         description="HQ Records is an indie record label"
         robotsProps={{
           nosnippet: true,
@@ -40,7 +36,7 @@ export default function ArtistsVeyster() {
         canonical="https://www.canonical.ie/"
       />
       <Head>
-        <title>Veyster | HQ Records</title>
+        <title>{artist} | HQ Records</title>
         <meta
           name="description"
           content="HQ Records is an indie record label"
@@ -49,10 +45,7 @@ export default function ArtistsVeyster() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <PageHeader text="Veyster" />
-        <ArtistInfo artist={artist} />
-        <ArtistSocials artist={artist} />
-        <ArtistReleases artist={artist} />
+        <ArtistContent artistName={artist} />
       </main>
     </>
   );
