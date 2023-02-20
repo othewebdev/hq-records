@@ -45,6 +45,13 @@
 .headerLogo:hover {
   cursor: pointer;
 }
+.hamburger {
+  transition: 0.1s ease all;
+}
+.hamburger:hover {
+  filter: invert(11%) sepia(100%) saturate(5146%) hue-rotate(341deg)
+    brightness(86%) contrast(99%);
+}
 @media screen and (max-width: 1080px) {
   .nav {
     padding: 0 12px;

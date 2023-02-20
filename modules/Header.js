@@ -2,7 +2,7 @@ import styles from "@/styles/Header.module.css";
 import { useEffect, useState } from "react";
 import ActiveLink from "./ActiveLink";
 import { DynamicLogo } from "./dynamic";
-import mobileMenu from "@/assets/Mobile_Menu.webp";
+import Hamburger from "@/assets/hamburger.webp";
 import Image from "next/image";
 
 const Header = () => {
@@ -32,7 +32,12 @@ const Header = () => {
           <ActiveLink href="/contact">Contact</ActiveLink>
         </div>
         <div className={styles.mobileLinks}>
-          <Image src={mobileMenu} alt="Mobile Menu" width={32} />
+          <Image
+            src={Hamburger}
+            className={styles.hamburger}
+            alt="Mobile Menu"
+            width={24}
+          />
         </div>
       </nav>
     </header>
