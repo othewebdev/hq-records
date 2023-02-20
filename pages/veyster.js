@@ -1,6 +1,7 @@
 import ARTISTS from "@/data/artistsInformation";
 import ArtistInfo from "@/modules/ArtistInfo";
 import ArtistReleases from "@/modules/ArtistReleases";
+import ArtistSocials from "@/modules/ArtistSocials";
 import PageHeader from "@/modules/PageHeader";
 import styles from "@/styles/About.module.css";
 import { NextSeo } from "next-seo";
@@ -50,6 +51,7 @@ export default function ArtistsVeyster() {
       <main className={styles.main}>
         <PageHeader text="Veyster" />
         <ArtistInfo artist={artist} />
+        <ArtistSocials artist={artist} />
         <ArtistReleases artist={artist} />
       </main>
     </>

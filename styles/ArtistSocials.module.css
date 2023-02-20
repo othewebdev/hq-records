@@ -1,0 +1,15 @@
+.socialLinksOuter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12px;
+  margin-top: 24px;
+}
+.socialLinksInner {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
