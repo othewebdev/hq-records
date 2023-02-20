@@ -35,6 +35,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[1].artistBio,
+    releases: RELEASES[0].releases,
   },
   {
     name: "Odee-loh",
@@ -49,6 +50,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[2].artistBio,
+    releases: RELEASES[0].releases,
   },
   {
     name: "Quan LLP!!",
@@ -63,6 +65,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[3].artistBio,
+    releases: RELEASES[0].releases,
   },
   {
     name: "Brdwy Seffy Smoove",
@@ -78,6 +81,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[4].artistBio,
+    releases: RELEASES[0].releases,
   },
   {
     name: "Dreskii",
@@ -92,6 +96,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[5].artistBio,
+    releases: RELEASES[0].releases,
   },
   {
     name: "Lil Myron",
@@ -105,6 +110,8 @@ const ARTISTS = [
       { name: "TikTok", href: "", logo: tiktokLogo },
     ],
     location: "Kansas City",
+    biography: BIOGRAPHIES[6].artistBio,
+    releases: RELEASES[0].releases,
   },
 ];
 

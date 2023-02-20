@@ -38,4 +38,8 @@ BrdwySeffySmoove's music is characterized by its unique blend of old-school funk
 
 Dreskii's music is raw and aggressive, with lyrics that reflect the struggle and pain of his experiences. He pulls no punches, using his music to speak out against the injustices and hardships faced by his community. His beats are heavy and hard-hitting, with a style that's both dark and captivating.`,
   },
+  {
+    artistName: "Lil Myron",
+    artistBio: ``,
+  },
 ];

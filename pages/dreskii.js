@@ -45,7 +45,7 @@ export default function ArtistsDreskii() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <ArtistContent artistName={artist} altName />
+        <ArtistContent artistName={artist} />
       </main>
     </>
   );
