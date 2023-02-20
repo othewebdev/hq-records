@@ -13,6 +13,17 @@
   touch-action: none;
   overflow: hidden;
 }
+
+@supports (backdrop-filter: blur(1rem)) {
+  .mobileMenu {
+    background-color: hsla(0, 0%, 8%, 0.685);
+    backdrop-filter: blur(1rem);
+  }
+}
+.mobileMenu a {
+  text-decoration: none;
+}
+
 .mobileMenu ul {
   list-style-type: none;
   text-align: center;
@@ -21,7 +32,7 @@
   color: white;
   font-size: 36px;
   font-weight: 600;
-  transition: 0.1s ease all;
+  transition: 0.2s ease all;
   text-decoration: none;
   user-select: none;
 }
