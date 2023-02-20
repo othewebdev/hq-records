@@ -1,5 +1,6 @@
 import ARTISTS from "@/data/artistsInformation";
 import ArtistInfo from "@/modules/ArtistInfo";
+import ArtistReleases from "@/modules/ArtistReleases";
 import PageHeader from "@/modules/PageHeader";
 import styles from "@/styles/Artists.module.css";
 import { NextSeo } from "next-seo";

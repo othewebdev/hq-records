@@ -1,16 +1,10 @@
-2. Add location icon on artist page (next to location)~
-3. Add slugs to each artist page (/artists/{Artist Name})
-   <!-- 4. Add Apple Music API for latest release, songs etc for each artist
-      - Add social media links -->
+1. Add location icon on artist page (next to location)~
    - Finish writing arist biographies
-   <!-- - Create an SEO description for each page -->
-4. Finish about page
-5. Finish contact page
+   - Create an SEO description for each page
+2. Finish about page
+3. Finish contact page
    - Configure Formik to send emails
    - Search for SPAM protection for this form
    - Have all emails go to (contact@hq-records.com)
-6. Register site to Google Search Console
-7. ~~Setup Cookie Consent~~ with Google Tag Manager(!)
-8. Setup Google Analytics(!)
-   ~~13. Fix spacing on all page headers~~
-9. Run Speed Test, SEO Optimization and more
+4. Register site to Google Search Console
+5. Run Speed Test, SEO Optimization and more
