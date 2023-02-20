@@ -1,10 +1,15 @@
 import React from "react";
 import styles from "@/styles/ArtistReleases.module.css";
+import ReleaseCard from "./ReleaseCard";
 
-const ArtistReleases = () => {
+const ArtistReleases = ({ artist }) => {
   return (
     <div className={styles.releasesContainer}>
-      <p>releases page</p>
+      <div className={styles.releasesGrid}>
+        {artist.releases?.map((r) => (
+          <ReleaseCard key={r.name} release={r} />
+        ))}
+      </div>
     </div>
   );
 };
