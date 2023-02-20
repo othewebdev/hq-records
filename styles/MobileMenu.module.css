@@ -1,5 +1,5 @@
 .mobileMenu {
-  position: absolute;
+  position: fixed;
   z-index: 999999;
   display: flex;
   flex-direction: column;
@@ -8,18 +8,11 @@
   justify-content: center;
   align-items: center;
   transition: 0.1s ease all;
-  background-color: hsla(0, 0%, 8%, 0.685);
-  backdrop-filter: blur(1rem);
+  background-color: rgb(27, 27, 27);
   touch-action: none;
   overflow: hidden;
 }
 
-@supports (backdrop-filter: blur(1rem)) {
-  .mobileMenu {
-    background-color: hsla(0, 0%, 8%, 0.685);
-    backdrop-filter: blur(1rem);
-  }
-}
 .mobileMenu a {
   text-decoration: none;
 }
