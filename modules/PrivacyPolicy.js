@@ -5,8 +5,6 @@ const PPModule = () => {
   return (
     <div className={styles.outer}>
       <div className={styles.inner}>
-        <h1>Privacy Policy for HQ Records</h1>
-
         <p>
           At www.hq-records.com, accessible from https://www.hq-records.com/,
           one of our main priorities is the privacy of our visitors. This
