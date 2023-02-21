@@ -1,25 +1,14 @@
 .container {
   position: fixed;
   bottom: 35px;
-<<<<<<< HEAD
   max-width: 365px;
   margin: 0 auto;
   margin-left: 35px;
   background: black;
-=======
-  background: black;
-  max-width: 375px;
-  min-width: 305px;
->>>>>>> 1d61bf584cd74439f41d6025e249ec8d0cf6019e
   z-index: 9999;
   text-align: center;
   color: white;
   padding: 1.5em;
-<<<<<<< HEAD
-=======
-  left: 50%;
-  transform: translate(-50%, 0);
->>>>>>> 1d61bf584cd74439f41d6025e249ec8d0cf6019e
   font-size: 12px;
   animation: fadeIn 0.3s normal forwards;
   transition: 0.2s ease all;
@@ -58,7 +47,6 @@
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-<<<<<<< HEAD
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -69,8 +57,6 @@
     transform: translate(-50%, 0);
     margin: 0;
   }
-=======
->>>>>>> 1d61bf584cd74439f41d6025e249ec8d0cf6019e
 }
 @keyframes fadeIn {
   0% {
