@@ -667,13 +667,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.2.5":
-  version: 2.3.2
-  resolution: "classnames@npm:2.3.2"
-  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
-  languageName: node
-  linkType: hard
-
 "client-only@npm:0.0.1":
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
@@ -1682,7 +1675,6 @@ __metadata:
     react-dom: 18.2.0
     react-google-recaptcha: ^2.1.0
     react-player: ^2.11.2
-    react-responsive-carousel: ^3.2.23
     react-video-tag: ^0.0.10
     swiper: ^9.0.5
   languageName: unknown
@@ -2522,7 +2514,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.0, prop-types@npm:^15.5.8, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.5.0, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -2580,15 +2572,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-easy-swipe@npm:^0.0.21":
-  version: 0.0.21
-  resolution: "react-easy-swipe@npm:0.0.21"
-  dependencies:
-    prop-types: ^15.5.8
-  checksum: 225f12a9dd410db1c790220867ab1eb58e2ef0a2bdae8541330805fc5b9905e242ab307b019f9aaed76473849a753f363baff03fa8a77e7a1860d7b41dc83ec0
-  languageName: node
-  linkType: hard
-
 "react-fast-compare@npm:^2.0.1":
   version: 2.0.4
   resolution: "react-fast-compare@npm:2.0.4"
@@ -2634,17 +2617,6 @@ __metadata:
   peerDependencies:
     react: ">=16.6.0"
   checksum: 003bfcfb00692f3b5e8dd831411a26a66474b7cb8003284ea835c50f7e9ca831895f8557c9ceafdb29ab9915a3ce0f5ba655c8c88fbff6acae3d4554de9986ee
-  languageName: node
-  linkType: hard
-
-"react-responsive-carousel@npm:^3.2.23":
-  version: 3.2.23
-  resolution: "react-responsive-carousel@npm:3.2.23"
-  dependencies:
-    classnames: ^2.2.5
-    prop-types: ^15.5.8
-    react-easy-swipe: ^0.0.21
-  checksum: 8a5b915f140a05425554a0c108c60a0b103dae49808486d39147df09c832ad712c7d7f4a66f0d0c39529ca095b4a327f0cc440d91b5f7a39ab13076931f74bd0
   languageName: node
   linkType: hard
 

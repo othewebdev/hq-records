@@ -1,3 +1,4 @@
+import AboutInfo from "@/modules/AboutInfo";
 import PageHeader from "@/modules/PageHeader";
 import styles from "@/styles/About.module.css";
 import { NextSeo } from "next-seo";
@@ -45,6 +46,7 @@ export default function About() {
       </Head>
       <main className={styles.main}>
         <PageHeader text="about." />
+        <AboutInfo />
       </main>
     </>
   );
