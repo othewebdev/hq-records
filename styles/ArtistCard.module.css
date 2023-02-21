@@ -2,6 +2,7 @@
   aspect-ratio: 1/1;
   overflow: hidden;
   transition: 0.1s ease-in all;
+  max-width: 400px;
 }
 .card a {
   text-decoration: none;
@@ -28,6 +29,7 @@
   margin: 12px 0;
   z-index: 99;
 }
+
 @media screen and (max-width: 1080px) {
   .card {
     margin: 0 16px;

@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 24px;
 }
 .socialLinksInner {
   width: 100%;
@@ -19,8 +18,18 @@
 .socialLinksInner a img {
   transition: 0.1s ease all;
 }
-
 .socialLinksInner a img:hover {
   filter: invert(11%) sepia(100%) saturate(5146%) hue-rotate(341deg)
     brightness(86%) contrast(99%);
+}
+
+@media screen and (max-width: 768px) {
+  .socialLinksInner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+  }
 }

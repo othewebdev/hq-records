@@ -4,14 +4,16 @@ export const RELEASES = [
     releases: [
       {
         id: "",
-        name: "release-test-1",
-        imageUrl: "",
+        name: "Love Letters",
+        imageUrl:
+          "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/316x316bb-min.webp",
         href: "",
       },
       {
         id: "",
-        name: "release-test-2",
-        imageUrl: "",
+        name: "GTA",
+        imageUrl:
+          "https://hqmusic-bucket.s3.us-east-2.amazonaws.com/GTA-min.webp",
         href: "",
       },
       {
