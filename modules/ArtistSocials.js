@@ -6,7 +6,7 @@ const ArtistSocials = ({ artist }) => {
     <div className={styles.socialLinksOuter}>
       <div className={styles.socialLinksInner}>
         {artist.socials?.map((s) => (
-          <a href={s.href}>
+          <a href={s.href} key={s.name}>
             <Image src={s.logo} alt={artist.name + " " + s.name} width={48} />
           </a>
         ))}

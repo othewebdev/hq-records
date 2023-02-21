@@ -37,6 +37,9 @@ const ReleaseCard = ({ release }) => {
           }}
         >
           <p className={styles.cardArtistName}>{release.name}</p>
+          {release.feature && (
+            <p className={styles.cardFeatureName}>w/ {release.feature}</p>
+          )}
         </motion.div>
       </a>
     </div>
