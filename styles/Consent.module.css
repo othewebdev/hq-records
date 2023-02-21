@@ -2,12 +2,14 @@
   position: fixed;
   bottom: 35px;
   background: black;
-  max-width: 365px;
-  margin: 0 auto;
+  max-width: 375px;
+  min-width: 305px;
+  z-index: 9999;
   text-align: center;
   color: white;
   padding: 1.5em;
-  margin-left: 35px;
+  left: 50%;
+  transform: translate(-50%, 0);
   font-size: 12px;
   animation: fadeIn 0.3s normal forwards;
 }
@@ -19,7 +21,7 @@
 }
 
 .container button {
-  max-width: 80px;
+  min-width: 130px;
   padding: 0.75em 0.75em;
   border: 1px solid white;
   background: transparent;
@@ -42,9 +44,9 @@
 }
 
 .buttonContainer {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 18px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 @keyframes fadeIn {
