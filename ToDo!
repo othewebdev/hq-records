@@ -1,9 +1,7 @@
-1. Finish writing artist biographies
-   - Create an SEO description for each page
-2. Finish about page
-3. Finish contact page
+1. Finish about page
+2. Finish contact page
    - Configure Formik to send emails
    - Search for SPAM protection for this form
    - Have all emails go to (contact@hq-records.com)
-4. Register site to Google Search Console
-5. Run Speed Test, SEO Optimization and more
+3. Register site to Google Search Console
+4. Run Speed Test, SEO Optimization and more
