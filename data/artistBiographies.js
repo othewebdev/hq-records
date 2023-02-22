@@ -40,6 +40,6 @@ Dreskii's music is raw and aggressive, with lyrics that reflect the struggle and
   },
   {
     artistName: "Lil Myron",
-    artistBio: ``,
+    artistBio: `Lil Myron is an artist based in Kansas City. He is most known for his participation in the KC car scene. Lil Myron is featured on several tracks with other artist on HQ Records. However Lil Myron does not have any independent records as of now.`,
   },
 ];

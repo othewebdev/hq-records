@@ -11,20 +11,6 @@
   padding: 48px 0;
   transition: 0.2s ease all;
 }
-@keyframes animate {
-  0% {
-    width: 0;
-  }
-  10% {
-    width: 465px;
-  }
-  90% {
-    width: 465px;
-  }
-  100% {
-    width: 0;
-  }
-}
 @media screen and (max-width: 1080px) {
   .innerHeader h1 {
     font-size: 58px;

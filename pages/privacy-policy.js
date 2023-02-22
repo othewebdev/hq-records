@@ -1,14 +1,14 @@
-import AboutInfo from "@/modules/AboutInfo";
 import PageHeader from "@/modules/PageHeader";
-import styles from "@/styles/About.module.css";
+import PPModule from "@/modules/PrivacyPolicy";
+import styles from "@/styles/Contact.module.css";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 
-export default function About() {
+export default function PrivacyPolicy() {
   return (
     <>
       <NextSeo
-        title="About | HQ Records"
+        title="Privacy Policy | HQ Records"
         description="HQ Records is an indie record label"
         robotsProps={{
           nosnippet: true,
@@ -36,7 +36,7 @@ export default function About() {
         canonical="https://www.canonical.ie/"
       />
       <Head>
-        <title>About | HQ Records</title>
+        <title>Privacy Policy | HQ Records</title>
         <meta
           name="description"
           content="HQ Records is an indie record label"
@@ -45,8 +45,8 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <PageHeader text="about." />
-        <AboutInfo />
+        <PageHeader text="Privacy Policy" />
+        <PPModule />
       </main>
     </>
   );

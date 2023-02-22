@@ -11,6 +11,7 @@
   background-color: rgb(27, 27, 27);
   touch-action: none;
   overflow: hidden;
+  animation: fadeIn 2s forwards;
 }
 
 .mobileMenu a {
@@ -41,7 +42,21 @@
   cursor: pointer;
   color: white;
 }
-@media screen and (min-width: 768px) {
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 100;
+  }
+  90% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
   .mobileMenu {
     display: none;
   }

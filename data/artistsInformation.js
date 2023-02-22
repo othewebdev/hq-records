@@ -35,7 +35,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[1].artistBio,
-    releases: RELEASES[0].releases,
+    releases: RELEASES[1].releases,
   },
   {
     name: "Odee-loh",
@@ -50,7 +50,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[2].artistBio,
-    releases: RELEASES[0].releases,
+    releases: RELEASES[2].releases,
   },
   {
     name: "Quan LLP!!",
@@ -65,7 +65,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[3].artistBio,
-    releases: RELEASES[0].releases,
+    releases: RELEASES[3].releases,
   },
   {
     name: "Brdwy Seffy Smoove",
@@ -81,7 +81,7 @@ const ARTISTS = [
     ],
     location: "Kansas City",
     biography: BIOGRAPHIES[4].artistBio,
-    releases: RELEASES[0].releases,
+    releases: RELEASES[4].releases,
   },
   {
     name: "Dreskii",
