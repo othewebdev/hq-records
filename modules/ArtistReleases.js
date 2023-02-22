@@ -5,11 +5,9 @@ import ReleaseCard from "./ReleaseCard";
 const ArtistReleases = ({ artist }) => {
   return (
     <div className={styles.releasesContainer}>
-      <div className={styles.releasesGrid}>
-        {artist.releases?.map((r) => (
-          <ReleaseCard key={r.name} release={r} />
-        ))}
-      </div>
+      {artist.releases?.map((r) => (
+        <ReleaseCard key={r.name} release={r} />
+      ))}
     </div>
   );
 };
