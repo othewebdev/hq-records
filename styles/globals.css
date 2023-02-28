@@ -51,6 +51,7 @@ a {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--accent);
+  /* border-radius: 6px; */
 }
 
 /* Handle on hover */
