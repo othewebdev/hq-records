@@ -14,7 +14,6 @@ const ArtistContent = ({ artistName, altName }) => {
       <PageHeader text={artistName} />
       <ArtistInfo artist={artist} altName={altName} />
       <ArtistSocials artist={artist} />
-      <ArtistReleases artist={artist} />
     </div>
   );
 };

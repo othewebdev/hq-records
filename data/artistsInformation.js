@@ -94,7 +94,7 @@ const ARTISTS = [
       { name: "YouTube", href: "", logo: youtubeLogo },
       { name: "TikTok", href: "", logo: tiktokLogo },
     ],
-    location: "Kansas City",
+    location: "Dallas",
     biography: BIOGRAPHIES[5].artistBio,
     releases: RELEASES[0].releases,
   },
