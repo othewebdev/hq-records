@@ -24,7 +24,6 @@ const Header = () => {
         <div className={styles.links}>
           <ActiveLink href="/">Home</ActiveLink>
           <ActiveLink href="/artists">Artists</ActiveLink>
-          <ActiveLink href="/contact">Contact</ActiveLink>
         </div>
         <div className={styles.mobileLinks}>
           <Image
