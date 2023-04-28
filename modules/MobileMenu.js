@@ -19,14 +19,8 @@ const MobileMenu = () => {
             <a href="/" onClick={() => handleClose()}>
               <li>Home</li>
             </a>
-            <a href="/about" onClick={() => handleClose()}>
-              <li>About</li>
-            </a>
             <a href="/artists" onClick={() => handleClose()}>
               <li>Artists</li>
-            </a>
-            <a href="contact/" onClick={() => handleClose()}>
-              <li>Contact</li>
             </a>
           </ul>
         </aside>
